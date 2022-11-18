@@ -1,4 +1,4 @@
-const { LinkedList } = require("./linked-list");
+const { LinkedList } = require("./LinkedList");
 
 const _ll = new LinkedList();
 
@@ -21,3 +21,15 @@ console.log("Is linkedlist empty: ", _ll.isEmpty());
 
 //Get size of linkedlist
 console.log("Size of linkedlist: ", _ll.sizeOfLinkedList());
+
+//Insert element with index
+_ll.insertElementWithIndex(-22, 4);
+_ll.printList();
+
+//Remove element
+_ll.removeElement(0);
+_ll.printList();
+
+//Remove element with index
+_ll.removeElementWithIndex(4);
+_ll.printList();
