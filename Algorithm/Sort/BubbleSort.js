@@ -10,10 +10,10 @@ const bubbleSort = (array) => {
       }
     }
   }
-  console.log(array);
+  return array;
 };
 
 (() => {
   console.log("Before array is not sorted: ", arr);
-  console.log("After array is sorted: " + bubbleSort(arr));
+  console.log("After array is sorted: ", bubbleSort(arr));
 })();
